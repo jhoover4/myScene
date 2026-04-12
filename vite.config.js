@@ -1,26 +1,25 @@
+import { paraglideVitePlugin } from '@inlang/paraglide-js';
 import { defineConfig } from 'vitest/config';
 import { playwright } from '@vitest/browser-playwright';
 import { sveltekit } from '@sveltejs/kit/vite';
 
 export default defineConfig({
-	plugins: [sveltekit()],
-
+	plugins: [
+		sveltekit(),
+		paraglideVitePlugin({ project: './project.inlang', outdir: './src/lib/paraglide' })
+	],
 	test: {
 		expect: { requireAssertions: true },
-
 		projects: [
 			{
 				extends: './vite.config.js',
-
 				test: {
 					name: 'client',
-
 					browser: {
 						enabled: true,
 						provider: playwright(),
 						instances: [{ browser: 'chromium', headless: true }]
 					},
-
 					include: ['src/**/*.svelte.{test,spec}.{js,ts}'],
 					exclude: ['src/lib/server/**']
 				}
@@ -28,7 +27,6 @@ export default defineConfig({
 
 			{
 				extends: './vite.config.js',
-
 				test: {
 					name: 'server',
 					environment: 'node',
