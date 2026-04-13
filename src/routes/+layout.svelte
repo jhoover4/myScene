@@ -1,4 +1,5 @@
 <script>
+  import '../app.css';
 	import { resolve } from '$app/paths';
 	import { page } from '$app/state';
 	import { locales, localizeHref } from '$lib/paraglide/runtime';
@@ -8,10 +9,18 @@
 </script>
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
-{@render children()}
+<div class="container">
+  <nav>
+    <h1>MyScene</h1>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/scenes">Scenes</a>
+      <a href="/artists">Artists</a>
+      <a href="/fans">Fans</a>
+      <a href="/venues">Venues</a>
+      <a href="/investors">Community Investors</a>
+    </div>
+  </nav>
 
-<div style="display:none">
-	{#each locales as locale (locale)}
-		<a href={resolve(localizeHref(page.url.pathname, { locale }))}>{locale}</a>
-	{/each}
+	{@render children()}
 </div>

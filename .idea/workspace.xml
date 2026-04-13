@@ -4,44 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06c8daaa-2809-4d40-8654-f0e9fe061a02" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/extensions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messages/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project.inlang/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/vitest-examples/Welcome.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/vitest-examples/Welcome.svelte.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/vitest-examples/greet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/vitest-examples/greet.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/demo/paraglide/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierignore" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drizzle.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eslint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/eslint.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks.server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/server/auth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/server/db/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/server/db/schema.js" beforeDir="false" />
+    <list default="true" id="06c8daaa-2809-4d40-8654-f0e9fe061a02" name="Changes" comment="Restart everything">
+      <change afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/Form.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/assets/band-playing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/assets/set.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/artists/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/artists/follow/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/fans/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/investors/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/scenes/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/venues/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/demo/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/demo/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/demo/lucia/+page.server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/demo/lucia/+page.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/demo/lucia/login/+page.server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/demo/lucia/login/+page.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/page.svelte.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/demo/+page.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/demo/paraglide/+page.svelte" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,23 +44,38 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/jordanhoover/Code/myScene",
+    "last_opened_file_path": "/Users/jordanhoover/Code/myScene/src/routes",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/jordanhoover/Code/myScene/node_modules/prettier",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "/Applications/PyCharm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "ts.external.directory.path": "/Users/jordanhoover/Code/myScene/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/routes" />
+      <recent name="$PROJECT_DIR$/src/routes/band/follow" />
+      <recent name="$PROJECT_DIR$/src/routes/scene" />
+      <recent name="$PROJECT_DIR$/src/routes/fans" />
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/lib/assets" />
+      <recent name="$PROJECT_DIR$/src/routes/signup" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -106,5 +99,9 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Restart everything" />
+    <option name="LAST_COMMIT_MESSAGE" value="Restart everything" />
   </component>
 </project>
