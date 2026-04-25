@@ -1,4 +1,4 @@
-<form className="fade-in delay-1">
+<form class="fade-in delay-1">
 	<input type="text" placeholder="Your Name" />
 	<input type="email" placeholder="Email Address" />
 
@@ -10,5 +10,5 @@
 		<option>Electronic</option>
 	</select>
 
-	<button className="btn">Sign Up</button>
+	<button class="btn">Sign Up</button>
 </form>;
