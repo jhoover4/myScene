@@ -16,7 +16,7 @@
 			<span class="chip">Late Night Guitars</span>
 			<p style="margin-top:12px;">Warm synth textures, moody guitars, and hometown momentum.</p>
 			<div class="artist-actions">
-				<a href="artists/artist-profile.html" class="btn">View Profile</a>
+				<a href="/artists/artist-profile" class="btn">View Profile</a>
 				<a href="#" class="btn-secondary">Follow</a>
 			</div>
 		</div>
@@ -31,7 +31,7 @@
 			<span class="chip">Neon Hooks</span>
 			<p style="margin-top:12px;">Big hooks, sharp visuals, and local crossover appeal.</p>
 			<div class="artist-actions">
-				<a href="artists/artist-profile.html" class="btn">View Profile</a>
+				<a href="/artists/artist-profile" class="btn">View Profile</a>
 				<a href="#" class="btn-secondary">Follow</a>
 			</div>
 		</div>
@@ -46,7 +46,7 @@
 			<span class="chip">Warehouse Noise</span>
 			<p style="margin-top:12px;">Fast sets, packed rooms, and flyer-worthy energy.</p>
 			<div class="artist-actions">
-				<a href="artists/artist-profile.html" class="btn">View Profile</a>
+				<a href="/artists/artist-profile" class="btn">View Profile</a>
 				<a href="#" class="btn-secondary">Follow</a>
 			</div>
 		</div>
@@ -61,7 +61,7 @@
 			<span class="chip">Afterglow Soul</span>
 			<p style="margin-top:12px;">Soft-focus melodies and intimate late-night sets.</p>
 			<div class="artist-actions">
-				<a href="artists/artist-profile.html" class="btn">View Profile</a>
+				<a href="/artists/artist-profile" class="btn">View Profile</a>
 				<a href="#" class="btn-secondary">Follow</a>
 			</div>
 		</div>

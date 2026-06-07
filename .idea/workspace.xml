@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06c8daaa-2809-4d40-8654-f0e9fe061a02" name="Changes" comment="Initial design mockup">
-      <change afterPath="$PROJECT_DIR$/src/lib/PageHero.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/venues/detail/+page.svelte" afterDir="false" />
+    <list default="true" id="06c8daaa-2809-4d40-8654-f0e9fe061a02" name="Changes" comment="Add github pages config">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/fans/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/fans/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/venues/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/venues/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +97,8 @@
     <MESSAGE value="Restart everything" />
     <MESSAGE value="Initial layout" />
     <MESSAGE value="Initial design mockup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial design mockup" />
+    <MESSAGE value="Update" />
+    <MESSAGE value="Add github pages config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add github pages config" />
   </component>
 </project>

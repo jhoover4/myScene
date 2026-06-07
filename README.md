@@ -1,22 +1,6 @@
-# sv
+# myScene
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```sh
-# create a new project
-npx sv create my-app
-```
-
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-npx sv@0.15.1 create --template minimal --types jsdoc --add prettier eslint vitest="usages:unit,component" sveltekit-adapter="adapter:static" mdsvex paraglide="languageTags:en+demo:yes" --install npm ./
-```
+myScene website written with svelte. Will add backend in go in the future.
 
 ## Developing
 

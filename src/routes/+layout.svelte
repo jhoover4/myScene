@@ -13,11 +13,11 @@
   <nav class="site-nav">
     <h1 class="logo">myScene</h1>
 		<div class="nav-links">
-			<a href="/">Home</a>
-			<a href="/artists">Artists</a>
-			<a href="/fans">Fans</a>
-			<a href="/venues">Venues</a>
-			<a href="/investors">Community Investors</a>
+			<a href="{resolve('/')}">Home</a>
+			<a href="{resolve('/artists')}">Artists</a>
+			<a href="{resolve('/fans')}">Fans</a>
+			<a href="{resolve('/venues')}">Venues</a>
+			<a href="{resolve('/investors')}">Community Investors</a>
 		</div>
 	</nav>
 
