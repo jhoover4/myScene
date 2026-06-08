@@ -3,7 +3,7 @@
 	import { resolve } from '$app/paths';
 	import { page } from '$app/state';
 	import { locales, localizeHref } from '$lib/paraglide/runtime';
-	import favicon from '$lib/assets/favicon.svg';
+	import favicon from '$lib/assets/favicon.png';
 
 	let { children } = $props();
 </script>
@@ -23,3 +23,10 @@
 
 	{@render children()}
 </div>
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer-inner">
+	<a target="_blank" href="https://icons8.com/icon/25081/drums" class="link">Drum Set</a> icon by <a target="_blank" href="https://icons8.com" class="link">Icons8</a>
+    </div>
+  </div>
+</footer>
